@@ -1,3 +1,6 @@
+import lesson_7.Car;
+import lesson_7.Employee;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -73,6 +76,19 @@ public class Main {
         }
 
         System.out.println("array result: " + Arrays.toString(result));
+
+
+        Employee Worker = new Employee("Ibro","dev","iskanderov1991@gmail.com","123456789",33);
+        System.out.println(Worker.getName());
+
+
+        Car car1 = new Car();
+        car1.start();
+
     }
+
+
+
+
 
 }
